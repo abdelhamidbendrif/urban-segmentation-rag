@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+tmp/
+outputs/
+partage/
+*.zip
+*.pdf
+!Projets master SIDA.pdf
+.env
+.env.*
