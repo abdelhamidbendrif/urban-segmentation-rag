@@ -16,12 +16,12 @@ def sha256(path):
     return digest.hexdigest()
 
 
-def read_rgb(path):
+def read_rgb(path, max_side=960):
     bgr = cv2.imdecode(np.fromfile(path, dtype=np.uint8), cv2.IMREAD_COLOR)
     if bgr is None:
         raise ValueError(f'Cannot decode image: {path}')
     h, w = bgr.shape[:2]
-    scale = min(1.0, 960 / max(h, w))
+    scale = min(1.0, max_side / max(h, w))
     if scale < 1:
         bgr = cv2.resize(bgr, (max(1, round(w*scale)), max(1, round(h*scale))),
                          interpolation=cv2.INTER_AREA)

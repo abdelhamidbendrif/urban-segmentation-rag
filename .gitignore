@@ -1,11 +1,7 @@
 .venv/
+.archify/
 __pycache__/
-*.py[cod]
-tmp/
-outputs/
-partage/
+*.pyc
+resultats/
+experiments/output/
 *.zip
-*.pdf
-!Projets master SIDA.pdf
-.env
-.env.*

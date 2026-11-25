@@ -1,0 +1,6 @@
+Source declaree par l utilisateur : Drone Deploy Medium Dataset, Kaggle (Mighty Rains).
+Archive recue : drone_crops.zip.
+Quatre images JPEG RGB de 1500 x 1500 pixels.
+Ces fichiers sont des crops fournis par l utilisateur; la correspondance avec les TIFF originaux n a pas ete verifiee.
+Aucun masque de reference inclus. Ne pas renommer ces images comme images originales TIFF completes.
+Usage actuel : tests qualitatifs de segmentation et fusion.

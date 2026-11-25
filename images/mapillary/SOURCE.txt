@@ -1,0 +1,8 @@
+Source declaree par l utilisateur : echantillon du dataset Mapillary.
+12 photos JPG et 12 masques PNG indexes, repartis entre six continents.
+photos/ : images a ouvrir dans l interface.
+labels/ : annotations de reference ; ne pas les fournir comme photos d entree.
+Les originaux et palettes des masques sont conserves sans conversion.
+Aucun config.json, dictionnaire des classes, licence ou identifiant de version fourni dans cette archive.
+Obtenir la configuration correspondant exactement a cette version avant toute evaluation par classe.
+L interface actuelle traite les photos uniquement et ne charge pas automatiquement les labels.
